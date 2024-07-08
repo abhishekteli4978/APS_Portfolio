@@ -213,7 +213,6 @@ In this portfolio, we examine in more detail the crucial role algorithms play in
 
 [5]  "How Streaming Services Use Algorithms", Arts and technology management group, 2021. Available: [https://amt-lab.org/blog/2021/8/algorithms-in-streaming-services](https://amt-lab.org/blog/2021/8/algorithms-in-streaming-services)
 
-[6]  "Introduction to Merkle Tree", GeekforGeeks, .
-Availalble: [https://www.geeksforgeeks.org/introduction-to-merkle-tree/](https://www.geeksforgeeks.org/introduction-to-merkle-tree/)
+[6]  "Introduction to Merkle Tree", GeekforGeeks,2024, Availalble: [https://www.geeksforgeeks.org/introduction-to-merkle-tree/](https://www.geeksforgeeks.org/introduction-to-merkle-tree/)
 
-[7]  "Huffman Coding | Greedy Algo-3", GeekforGeeks, Sanchhaya Education Private Limited 2024. Available: [\[https://amt-lab.org/blog/2021/8/algorithms-in-streaming-services](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
+[7]  "Huffman Coding | Greedy Algo-3", GeekforGeeks Sanchhaya Education Private Limited, 2024. Available: [\[https://amt-lab.org/blog/2021/8/algorithms-in-streaming-services](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
