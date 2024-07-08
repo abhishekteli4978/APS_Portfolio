@@ -114,7 +114,27 @@ In this portfolio, we examine in more detail the crucial role algorithms play in
     - **Space Complexity**: O(n).
     - Code links have been highlighted in blue.
 
-4. **Adaptive bitrate streaming**
+4. **Bandwidth allocation and Load Balancing**
+    - OTT platforms need to allocate the bandwidth based on among users based on demand and priority.
+    - There is also need of load balancing to distribute the load among the multiple servers
+
+    -**Data Structures**
+    - We can use a segment tree to maintain and update the bandwidths allocated to users.
+    - The Segment tree can also be employed to keep track of current load on each server.
+    - Here is sample code of [segment trees](https://github.com/abhishekteli4978/APS_Portfolio/blob/main/codes/segment.cpp)
+
+    -**Time Complexity**
+    - Creation/Deltion/Update: O(n * log n)
+
+    -**Space Complexity**
+    - O(n).
+
+5. **Dynamic Adaptive Streaming over HTTP(DASH)**
+    - It is a streaming technique that adapts video quality according tothe network conditions.
+    - DASH has algorithms and data structure for efficient manangement of video segments.
+    - Here is wikipedia article for [DASH](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP)
+
+6. **Adaptive bitrate streaming**
     
     - ABR refers to the process of making streaming available in multiple video/audio resolutions to choose from and optionally, switching between multiple resolutions based on the user's available bandwidth.
     - **Data structure**: Data structures like [queues](https://github.com/abhishekteli4978/APS_Portfolio/blob/main/codes/queues.cpp) can be used for buffering, etc.
@@ -128,8 +148,23 @@ In this portfolio, we examine in more detail the crucial role algorithms play in
 
     ![abr](abr.jpg)
 
+8. **Data Compression**
 
-5. **Typeahead search**
+    - The OTT platforms manage humongous amount of data every day.
+    - The Data needs to compressed as compressed data can be managed more efficiently.
+
+    - **Algorithms**:
+        - Huffman coding
+            - Huffman coding is a lossless data compression algorithm. The idea is to assign variable-length codes to input characters, lengths of the assigned codes are based on the frequencies of corresponding characters.
+        - Here is sample code for [Huffman Coding](https://github.com/abhishekteli4978/APS_Portfolio/blob/main/codes/huffman.cpp)
+    
+    - **Time Complexity**:
+        - O(n * log n) where n is the number of unique characters
+
+    - **Space Complexity**:
+        - O(n).
+
+8. **Typeahead search**
     - Typeahead search refers to the functionality where the user types a part of the query he/she is intending to search and the potential list of completed queries is prompted back to the user to choose from.
     - **Data structure**: [Trie](https://github.com/abhishekteli4978/APS_Portfolio/blob/main/codes/trie.cpp) is a popular data structure to perform operations on dictionary like functionalities.
     - **Algorithms**: Trie can be used in conjuction with algorithms like [BFS](https://github.com/abhishekteli4978/APS_Portfolio/blob/main/codes/bfs.cpp), [DFS](https://github.com/abhishekteli4978/APS_Portfolio/blob/main/codes/dfs.cpp) to find the k-nearest words.
@@ -142,7 +177,7 @@ In this portfolio, we examine in more detail the crucial role algorithms play in
     ![type](typeahead.png)
 
 
-6. **Timestamps / Chapters**
+9. **Timestamps / Chapters**
     - Timestamps/chapters are the key-moments in a video where an important subject is being streamed. Allowing users to skip directly to the timestamps results in saving huge amount of bandwidth and time.
     - **Data structure**: Linear data structures like array, [queues](https://github.com/abhishekteli4978/APS_Portfolio/blob/main/codes/queues.cpp) would be used here.
     - **Algorithms**: Algorithms like [max-sum sliding-window](https://github.com/abhishekteli4978/APS_Portfolio/blob/main/codes/slidingWindow.cpp) would help in identifying the key moments in the video. Caching those results using data structures like hash-tables will greatly reduce the latency.
@@ -152,7 +187,7 @@ In this portfolio, we examine in more detail the crucial role algorithms play in
     ![chapters](chapters.png)
 
 
-7. **Most-watched / Most-replayed**
+10. **Most-watched / Most-replayed**
     - This features enables users to look at the most viewed segments in a given video. This is a constantly changing parameter as the watch time of individual user keeps on changing as per their requirements over a range of time.
     - This is more useful to the content creator as they can retrospect on their content and watch-behaviour of their users.
     - **Data structure / Algorithm**: Data structures like [Fenwick trees](https://github.com/abhishekteli4978/APS_Portfolio/blob/main/codes/fenwickTree.cpp), [Segment trees](https://github.com/abhishekteli4978/APS_Portfolio/blob/main/codes/rangeUpdateQuery.cpp) can optimise the process of generating this analytics they are better suited for range updates.
@@ -162,10 +197,9 @@ In this portfolio, we examine in more detail the crucial role algorithms play in
     - **Space Complexity**: O(n).
     - Code links have been highlighted in blue.
 
-8. **Personalised recommendation system**
+11. **Personalised recommendation system**
     - This feature enables users to get recommendations based on their watch history and the preferences as suggested by the user himself/herself.
     - **Data structure / Algorithm**: Machine learning algorithms/techniques like deep learning, NLP etc. can be used to effectively generate the personalised feed for each user.
-    - Code links have been highlighted in blue.
 
 
 # References
@@ -179,5 +213,7 @@ In this portfolio, we examine in more detail the crucial role algorithms play in
 
 [5]  "How Streaming Services Use Algorithms", Arts and technology management group, 2021. Available: [https://amt-lab.org/blog/2021/8/algorithms-in-streaming-services](https://amt-lab.org/blog/2021/8/algorithms-in-streaming-services)
 
-[6]  "Introduction to Merkle Tree", GeekforGeeks.
+[6]  "Introduction to Merkle Tree", GeekforGeeks, .
 Availalble: [https://www.geeksforgeeks.org/introduction-to-merkle-tree/](https://www.geeksforgeeks.org/introduction-to-merkle-tree/)
+
+[7]  "Huffman Coding | Greedy Algo-3", GeekforGeeks, Sanchhaya Education Private Limited 2024. Available: [\[https://amt-lab.org/blog/2021/8/algorithms-in-streaming-services](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
