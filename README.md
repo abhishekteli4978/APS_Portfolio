@@ -215,4 +215,4 @@ In this portfolio, we examine in more detail the crucial role algorithms play in
 
 [6]  "Introduction to Merkle Tree", GeekforGeeks,2024, Availalble: [https://www.geeksforgeeks.org/introduction-to-merkle-tree/](https://www.geeksforgeeks.org/introduction-to-merkle-tree/)
 
-[7]  "Huffman Coding | Greedy Algo-3", GeekforGeeks Sanchhaya Education Private Limited, 2024. Available: [https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
+[7]  "Huffman Coding", GeekforGeeks Sanchhaya Education Private Limited, 2024. Available: [https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
